@@ -48,4 +48,4 @@ INSERT INTO customer_review (film_id, language_id, title, score, review_text)
 VALUES (1, 1, 'BON FILM', 9, 'jaime ce film');
 
 INSERT INTO customer_review (film_id, language_id, title, score, review_text)
-VALUES (2, 2, 'top', 8, 'ce film est top mais se bat pas trop dedans haha');
+VALUES (2, 2, 'top', 8, 'ce dessin animé est superbe !');
