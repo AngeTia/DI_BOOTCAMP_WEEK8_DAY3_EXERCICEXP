@@ -9,7 +9,7 @@ WHERE film_id = 4;
     we have store_id and address_id. We will be obliged to make a join to the different tables whose keys are foreign in the client table which are : Address and payment  */
 
 -- We created a new table called customer_review. Drop this table. Is this an easy step, or does it need extra checking?
-    DROP TABLE IF EXIST customer_review;
+    DROP TABLE IF EXISTS customer_review;
 -- It's an easy step to drop this table
 
 
