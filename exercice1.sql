@@ -17,11 +17,11 @@ RIGHT JOIN language ON film.language_id = language.language_id;
  --Create a new table called new_film with the following columns : id, name. Add some new films to the table.
 
  CREATE TABLE new_film (
-  id SERIAL PRIMARY KEY, ,
+  id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
 );
 
-INSERT INTO new_film (name) VALUES ('Jack Bauer'),('DUCOBU')
+INSERT INTO new_film (name) VALUES ('Avatar Legend'),('KIRIKOU')
 
 -- 4- Create a new table called customer_review, which will contain film reviews that customers will make:
 
